@@ -1,7 +1,7 @@
 import urllib.request
 
 
-def getdatapoint(quote):
+def getDataPint(quote):
     """ Produce all the needed values to generate a datapoint """
     """ ------------- Update this function ------------- """
     stock = quote['stock']
@@ -10,7 +10,7 @@ def getdatapoint(quote):
     price = (bid_price + ask_price)/2
     return stock, bid_price, ask_price, price
 
-def getratio(price_a, price_b):
+def getRatio(price_a, price_b):
     """ Get ratio of price_a and price_b """
     """ ------------- Update this function ------------- """
     """ Also create some unit tests for this function in client_test.py """
